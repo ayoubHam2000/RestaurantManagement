@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background">#E0E0E0</color>
+    <color name="transparent">#00000000</color>
+    <color name="blackTransparent">#65000000</color>
+
+    <color name="chef">#28A86C</color>
+    <color name="admin">#115792</color>
+    <color name="custmer">#6B4CBD</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gold">#FFD700</color>
+
+</resources>

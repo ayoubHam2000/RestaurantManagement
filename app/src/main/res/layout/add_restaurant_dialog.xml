@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/setRestaurantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Restaurant Name"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/setRestaurantEnglish"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="English"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="@+id/setRestaurantName"
+        app:layout_constraintStart_toStartOf="@+id/setRestaurantName"
+        app:layout_constraintTop_toBottomOf="@+id/setRestaurantName" />
+
+    <TextView
+        android:id="@+id/SetRestaurantPriceUnit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Price Unit"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="@+id/setRestaurantEnglish"
+        app:layout_constraintStart_toStartOf="@+id/setRestaurantEnglish"
+        app:layout_constraintTop_toBottomOf="@+id/setRestaurantEnglish" />
+
+    <Spinner
+        android:id="@+id/restaurantPriceUnitInput"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="@+id/SetRestaurantPriceUnit"
+        app:layout_constraintEnd_toEndOf="@+id/restaurantEnglishInput"
+        app:layout_constraintStart_toStartOf="@+id/restaurantEnglishInput"
+        app:layout_constraintTop_toTopOf="@+id/SetRestaurantPriceUnit" />
+
+    <EditText
+        android:id="@+id/restaurantNameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="@+id/setRestaurantName"
+        app:layout_constraintStart_toEndOf="@+id/setRestaurantName"
+        app:layout_constraintTop_toTopOf="@+id/setRestaurantName" />
+
+    <Switch
+        android:id="@+id/restaurantEnglishInput"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/setRestaurantEnglish"
+        app:layout_constraintEnd_toEndOf="@+id/restaurantNameInput"
+        app:layout_constraintStart_toStartOf="@+id/restaurantNameInput"
+        app:layout_constraintTop_toTopOf="@+id/setRestaurantEnglish" />
+</androidx.constraintlayout.widget.ConstraintLayout>

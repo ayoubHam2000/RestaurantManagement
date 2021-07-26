@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RestaurantManagement</string>
+    <string name="synchronize">Get Synchronize</string>
+    <string name="getRestaurantInfo">Getting Restaurant Info</string>
+    <string name="setUpSynchronize">Set Up Synchronize</string>
+    <string name="deleteSynchronize"> Waite </string>
+    <string name="postRestaurant">Register Restaurant</string>
+    <string name="successRegisterRestaurant">Success Register Restaurant</string>
+    <string name="failedRegisterRestaurant">Failed Register Restaurant</string>
+    <string name="failedGetRestaurant">Failed Get Restaurant</string>
+    <string name="successGetRestaurant">Success Get Restaurant</string>
+    <string name="failedModifyRestaurant">Failed to modify restaurant</string>
+    <string name="successModifyRestaurant">Success to modify restaurant</string>
+
+
+    <array name="setting">
+        <item>non</item>
+        <item>Restaurant Information</item>
+        <item>Synchronization</item>
+    </array>
+
+    <array name="price_unit">
+        <item>MAD</item>
+        <item>USD</item>
+        <item>EUR</item>
+    </array>
+</resources>
